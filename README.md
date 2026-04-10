@@ -33,7 +33,7 @@ A **Windows Forms desktop application** built with **C# and SQL Server** for man
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/SuperShop-Management-System-CSharp.git
+   git clone https://github.com/hedayet-ullah-patwary/SuperShop-Management-System-CSharp.git
    ```
 
 2. Set up the database:
