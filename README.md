@@ -55,6 +55,8 @@ A **Windows Forms desktop application** built with **C# and SQL Server** for man
 
 ### 🔐 1. Login System (`FormLogin`)
 
+![Login Page](screenshots/LoginPage.png)
+
 - Secure login for both **Admin** and **Employee** using Employee ID and Password
 - Role-based authentication — the system automatically identifies the user's role from the database and redirects them to the appropriate dashboard
 - Input validation to prevent empty submissions
@@ -63,6 +65,8 @@ A **Windows Forms desktop application** built with **C# and SQL Server** for man
 ---
 
 ### 🧑‍💼 2. Admin Dashboard (`FormAdminDashboard`)
+
+![Admin Dashboard](screenshots/AdminDashboard.png)
 
 The central control panel for the Admin. Displays a real-time overview of:
 
@@ -74,7 +78,17 @@ From here, the Admin can navigate to Employee Management, Product Management, an
 
 ---
 
-### 👷 3. Employee Management (`FormEmployeeInformation`) — *Admin Only*
+### 🖥️ 3. Employee Dashboard (`FormEmployeeDashboard`)
+
+![Employee Dashboard](screenshots/EmpDashboard.png)
+
+The home panel for Employees after login. From here, employees can access the Product Cart for billing and view their assigned tasks.
+
+---
+
+### 👷 4. Employee Management (`FormEmployeeInformation`) — *Admin Only*
+
+![Employee Information](screenshots/EpmInfo.png)
 
 Full **CRUD (Create, Read, Update, Delete)** operations for managing shop staff.
 
@@ -91,7 +105,9 @@ Full **CRUD (Create, Read, Update, Delete)** operations for managing shop staff.
 
 ---
 
-### 📦 4. Product Management (`FormProductManagment`) — *Admin Only*
+### 📦 5. Product Management (`FormProductManagment`) — *Admin Only*
+
+![Add Product](screenshots/AddProduct.png)
 
 Complete **CRUD** operations for managing inventory and products.
 
@@ -109,7 +125,9 @@ Complete **CRUD** operations for managing inventory and products.
 
 ---
 
-### 🛒 5. Product Cart & Billing (`FormProductCart`) — *Employee Only*
+### 🛒 6. Product Cart & Billing (`FormProductCart`) — *Employee Only*
+
+![Product Cart](screenshots/ProductCard.png)
 
 The main selling interface for employees.
 
@@ -127,7 +145,9 @@ The main selling interface for employees.
 
 ---
 
-### 💳 6. Payment Processing (`FormPaymentProcess`) — *Employee Only*
+### 💳 7. Payment Processing (`FormPaymentProcess`) — *Employee Only*
+
+![Payment](screenshots/Payment.png)
 
 Handles the final payment step after cart confirmation.
 
@@ -144,7 +164,9 @@ Handles the final payment step after cart confirmation.
 
 ---
 
-### 📊 7. Sales Report (`FormSalesReport`) — *Admin Only*
+### 📊 8. Sales Report (`FormSalesReport`) — *Admin Only*
+
+![Sales Report](screenshots/Report.png)
 
 Allows the admin to view and analyze all sales records.
 
@@ -212,6 +234,15 @@ The system uses a SQL Server database named `Inventory` with the following three
 SuperShop-Management-System-CSharp/
 ├── Inventory.sql                        # SQL script to set up the database
 ├── Project Report.pdf                   # Full project report
+├── screenshots/                         # UI screenshots
+│   ├── LoginPage.png
+│   ├── AdminDashboard.png
+│   ├── EmpDashboard.png
+│   ├── EpmInfo.png
+│   ├── AddProduct.png
+│   ├── ProductCard.png
+│   ├── Payment.png
+│   └── Report.png
 └── ShopManagment/
     ├── ShopManagment.sln                # Visual Studio solution file
     └── ShopManagment/
